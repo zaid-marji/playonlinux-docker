@@ -6,4 +6,5 @@ RUN zypper -n refresh && \
         wine \
         winetricks \
         PlayOnLinux \
+        netcat \
     && zypper clean -a
